@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <form action="submit" method="post">
+        <label for="fname">Your Name*</label><br>
+        <input type="text" required></input><br>
+        <label for="email">Email*</label><br>
+        <input type="email" required></input><br>
+        <label for="cnumber">Contact No.*</label><br>
+        <input type="number"required></input><br>
+        <label for="message">Message</label><br>
+        <textarea name="" id=""></textarea><br>
+        Required field*
+        <br>
+        <input type="submit" value="Send"></input>
+    </form>
+</body>
+</html>
