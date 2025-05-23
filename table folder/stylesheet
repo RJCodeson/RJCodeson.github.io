@@ -1,0 +1,41 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd; 
+}
+
+img{
+    max-width: 150px;
+    height: auto;
+}
+
+.error_text{
+    color : red
+}
+
+.center_items {
+    text-align: center;
+}
+
+.yellow_background {
+    background-color: rgb(255, 218, 97);
+}
