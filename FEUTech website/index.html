@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<h1>FEU Institute of Technology</h1>
+<ul>
+  <li><a href="enrollment.html">Enrollment</a></li>
+  <li><a href="">Other Services</a></li>
+  <li><a href="">Guides and Manuals</a></li>
+  
+</ul>
+
+<p>this might just be john feu </p>
+<img id="hoverImage" src="38a612f4-e6f9-49e4-9753-bb89076b05c5.jpg" alt="Hover Image">
+
+<script>
+    const img = document.getElementById('hoverImage');
+    const originalSrc = '38a612f4-e6f9-49e4-9753-bb89076b05c5.jpg';
+    const hoverSrc = '260914420_1072914486805524_9208389765410441624.jpg';
+
+    img.addEventListener('mouseover', () => {
+        img.src = hoverSrc;
+    });
+
+    img.addEventListener('mouseout', () => {
+        img.src = originalSrc;
+    });
+</script>
+
+
+</body>
+</html>

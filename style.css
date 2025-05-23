@@ -12,7 +12,7 @@ body{
 
 table, td, thead, th{
     border-width: 1px;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border-style: solid;
     border-collapse: collapse;
     width: 75%;
@@ -23,10 +23,10 @@ table, td, thead, th{
     width: 200px;
     height: 40px;
     border-width: 1px;
-    border-color:gainsboro;
+    border-color:rgb(255, 255, 255);
     border-radius: 10px;
-    background-color: white;
-    filter: drop-shadow(1px 1px 1px gainsboro);
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
     transition: 300ms;
 }
 
