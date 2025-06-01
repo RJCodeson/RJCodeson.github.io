@@ -48,3 +48,9 @@ img {
     height: auto;
     align-items: center;
 }
+
+li a {
+  display: block;
+  width: 60px;
+}
+
