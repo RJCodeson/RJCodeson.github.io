@@ -1,0 +1,122 @@
+.name1 {
+ font-family: "Times New Roman", Times, serif;
+ width: 16.5%;
+ box-sizing: border-box;
+ padding: .2%;
+}
+
+div.header {
+margin: auto;
+  width: 50%;
+  text-align: left;
+  background-color: rgb(198, 198, 198);
+}
+
+div.MaritalStatus {
+  margin: auto;
+  width: 50%;
+  text-align: left;
+  
+}
+
+input.submit {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     
+   }
+
+   .birthday{
+   margin: auto;
+  width: 50%;
+  text-align: left;
+   }
+   
+  .center {
+    background-color: rgb(198, 198, 198);
+    text-align: center;
+  }
+ .relationship {
+    margin: auto;
+  width: 50%;
+  text-align: left;
+  background-color: rgb(198, 198, 198);
+
+ }
+
+ .email {
+     margin: auto;
+  width: 50%;
+  text-align: left;
+ }
+
+ .number {
+    margin: auto;
+  width: 50%;
+  text-align: right;
+ height: 50px;
+            width: 100%;
+            line-height:3;
+ }
+  
+ @media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.emailaddress {
+      background-color: rgb(198, 198, 198);
+}
+
+.birth {
+      background-color: rgb(198, 198, 198);
+}
+
+.employeeinf {
+    text-align: center;
+}
+
+.address {
+    margin: auto;
+  width: 50%;
+  text-align: left;
+  
+}
+.addressinfo, .form-control {
+    display: block; /* Make each input/select take full width */
+    width: 100%; /* Optional: Set width to 100% */
+    margin-bottom: 10px; /* Optional: Add some space between elements */
+    padding: 1px 0px;
+}
+
+.position {
+    margin: auto;
+  width: 50%;
+  text-align: left;
+}
+.additional {
+     margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
+.info {
+    margin: 8px;
+    padding:12px 20px ;
+     width: 40%;
+}
+
+
+   
+
+
+
+
+
+
+
