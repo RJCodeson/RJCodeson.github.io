@@ -1,38 +1,244 @@
-
 <!DOCTYPE html>
-<html>
-   <head>
-      <style>
-        body {
-          background: rgb(204,204,204); 
-          width: 21cm;
-          height: 29.7cm;
-          margin: 0 auto;
-        }
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Online Resume - Your Name</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-        page {
-          background: white;
-          display: block;
-          margin: 0 auto;
-          margin-bottom: 0.5cm;
-          position: relative;
-        }
+    
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4f7f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
 
-        page[size="A4"] {  
-          width: 21cm;
-          height: 29.7cm; 
-        }
+    
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px 40px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
 
-        @page {
-          size: 21cm 29.7cm;
-          margin: 0mm;
-        }
-      </style>
-   </head>
-   <body>
-      <page size="A4">
-      </page>
-      <page size="A4">
-      </page>
-   </body>
+   
+    header {
+      text-align: center;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+      color: #007acc;
+    }
+    header p {
+      margin: 6px 0 0;
+      font-size: 1rem;
+      color: #666;
+    }
+    header .contact-info {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    header .contact-info span:not(:last-child)::after {
+      content: " | ";
+      margin: 0 6px;
+      color: #bbb;
+    }
+
+    
+    h2.section-title {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 5px;
+      color: #007acc;
+      letter-spacing: 0.5px;
+    }
+
+   
+    .summary {
+      font-style: italic;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #444;
+    }
+
+    
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .skills li {
+      background-color: #e1f0ff;
+      border-radius: 20px;
+      padding: 8px 16px;
+      font-weight: 600;
+      color: #007acc;
+      font-size: 0.9rem;
+    }
+
+   
+    .experience-item, .education-item {
+      margin-bottom: 25px;
+    }
+    .experience-item h3, .education-item h3 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #222;
+    }
+    .experience-item .period, .education-item .period {
+      font-size: 0.9rem;
+      color: #666;
+      font-style: italic;
+    }
+    .experience-item .position, .education-item .degree {
+      margin: 5px 0 10px;
+      font-weight: 600;
+      color: #007acc;
+    }
+    .experience-item p, .education-item p {
+      margin: 4px 0 0;
+      font-size: 1rem;
+      color: #444;
+    }
+
+    
+    .projects ul {
+      padding-left: 20px;
+    }
+    .projects li {
+      margin-bottom: 12px;
+      font-size: 1rem;
+      color: #444;
+    }
+    .projects li a {
+      font-weight: 600;
+      color: #007acc;
+    }
+
+  
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+   
+    @media (max-width: 600px) {
+      .skills ul {
+        justify-content: center;
+      }
+      .container {
+        padding: 20px 15px;
+        margin: 20px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      h2.section-title {
+        font-size: 1.5rem;
+      }
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <img src="432990959_957644319359204_4153227904521950485_n.jpg" alt=" test" width="200" height="200" > <h1>Reyj II B Naluan</h1>
+      <p>Professional Game Animator and Programmer</p>
+      <div class="contact-info" aria-label="Contact information">
+        <span>Email: <a href="mailto:your.email@example.com">202410793@fit.edu.ph</a></span>
+        <span>Phone: 09478171315</span>
+        <span>GitHub: <a href="https://github.com/yourgithub" target="_blank" rel="noopener">https://github.com/RJCodeson</a></span>
+      </div>
+    </header>
+
+   
+
+    <section class="summary" aria-label="Professional summary">
+      <p>Results-driven software engineer with 5+ years of experience in web development and building scalable applications. Skilled in modern JavaScript frameworks, backend API design, and cloud deployment. Passionate about creating performant and user-friendly digital experiences.</p>
+    </section>
+
+    <section class="skills" aria-label="Skills">
+      <h2 class="section-title">Skills</h2>
+      <ul>
+        <li>JavaScript (ES6+)</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>HTML5 & CSS3</li>
+        <li>REST APIs</li>
+        <li>Git & GitHub</li>
+        <li>Docker</li>
+        <li>Agile & Scrum</li>
+      </ul>
+    </section>
+
+    <section class="experience" aria-label="Work experience">
+      <h2 class="section-title">Work Experience</h2>
+      <article class="experience-item">
+        <h3>Senior Frontend Developer</h3>
+        <div class="position">FEU Institute of Technology</div>
+        <div class="period">August 2024 - Present</div>
+        <p>Lead the frontend team on multiple client projects using React and Redux to build scalable and maintainable web applications. Improved app load time by 30% and implemented accessibility best practices.</p>
+      </article>
+      <article class="experience-item">
+        <h3>Software Engineer</h3>
+        <div class="position">Gardner College</div>
+        <div class="period">2023-2024</div>
+        <p>Developed RESTful APIs with Node.js and Express. Designed and maintained databases, optimized server-side code, and collaborated with product owners to deliver features on time.</p>
+      </article>
+    </section>
+
+    <section class="education" aria-label="Education">
+      <h2 class="section-title">Education</h2>
+      <article class="education-item">
+        <h3>BSIT Animation and Game Development</h3>
+        <div class="degree">FEU Institute of Technology</div>
+        <div class="period">2024-2025</div>
+        <p>Graduated with Honors. Relevant coursework: Algorithms, Data Structures, Software Engineering, Database Systems.</p>
+      </article>
+    </section>
+
+    <section class="projects" aria-label="Projects and certifications">
+      <h2 class="section-title">Projects & Certifications</h2>
+      <ul>
+        <li><a href="https://github.com/yourgithub/awesome-project" target="_blank" rel="noopener">Awesome Project</a> - An open source React component library with 50k+ downloads.</li>
+        <li>Certified AWS Solutions Architect – Associate (2023)</li>
+      </ul>
+    </section>
+
+    <footer>
+      
+    </footer>
+  </div>
+</body>
 </html>
+
