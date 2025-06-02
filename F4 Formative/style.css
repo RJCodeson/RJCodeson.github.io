@@ -116,6 +116,13 @@ input.submit {
   font-size: +3;
 }
 
+.form {
+ text-align: center;
+ margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
 
    
 
