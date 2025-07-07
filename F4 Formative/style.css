@@ -111,6 +111,18 @@ input.submit {
      width: 40%;
 }
 
+.center{
+  text-align: center;
+  font-size: +3;
+}
+
+.form {
+ text-align: center;
+ margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
 
    
 
