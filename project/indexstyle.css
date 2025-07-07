@@ -5,19 +5,29 @@
     font-family: Arial, sans-serif;
 }
 
+header.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 header {
-    background-color: white;
-    padding: 20px 30px;
+        background-color: white;
+    padding: 15px 30px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 nav ul {
     display: flex;
     list-style: none;
     gap: 50px;
+    margin-bottom: 0; 
+    padding-left: 0; 
 }
 
 nav a {
@@ -27,9 +37,22 @@ nav a {
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 0.5px;
-    transition: color 0.3s;
 } 
 
+.header-buttons {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.header-btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    
+}
 
 .logo img {
     height: 50px;
