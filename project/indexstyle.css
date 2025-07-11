@@ -247,6 +247,10 @@ img, .doggy {
   }
 }
 
+.btn btn-danger {
+  top: 50px;
+}
+
 
 @media (max-width: 575px) {
   .design-square {
