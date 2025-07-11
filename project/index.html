@@ -11,29 +11,54 @@
 <body>
   <div class="content-wrapper">
        <header class="container-fluid"> 
-        <div class="row align-items-center"> 
-            <div class="logo col-md-2">
-               <a href="index.html">
-                <img src="pokemon-go-seeklogo.png" alt="pokemon-go-seeklogo">
-               </a>
-        </div>
-        
-        <nav>
-            <ul>
-                <li><a href="#">Go Fest</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Seasons</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Leaderboard</a></li>
-                <li><a href="#">Shop</a></li>
-            </ul>
-        </nav>
-        
-        <div class="header-buttons">
-            <button class="header-btn play-btn">Sign In</button>
-        </div>
-    </header>
+            <div class="row align-items-center"> 
+                <div class="logo col-md-2">
+                   <a href="index.html">
+                    <img src="pokemon-go-seeklogo.png" alt="pokemon-go-seeklogo">
+                   </a>
+                </div>
+                
+                
+                <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">☰</span>
+                </button>
+                
+                <nav class="col-md-8">
+                    <ul>
+                        <li><a href="#">Go Fest</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Seasons</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Leaderboard</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-buttons">
+                    <button class="header-btn play-btn">Sign In</button>
+                </div>
+            </div>
+            
+           
+          
+            <div class="collapse d-md-none" id="mobileNav">
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="#">Go Fest</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Seasons</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Leaderboard</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li class="mobile-signin">
+                            <button class="header-btn play-btn">Sign In</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
         
         <section id="section1" class="section1">
