@@ -158,7 +158,6 @@ body {
         
         
 .about-section {
-    background-color: white;
     padding: 4rem 0;
 }
 
@@ -209,3 +208,4 @@ h1.section-title:after {
         justify-content: center;
     }
 }
+

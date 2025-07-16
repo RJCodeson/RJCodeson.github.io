@@ -1,0 +1,31 @@
+.team-rocket {
+  width: 100%;
+  height: auto;
+ mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 80%, transparent 100%);
+ display: block;
+}
+
+
+.about-us {
+position: absolute;
+top: 40%;
+left: 43%;
+color: rgb(255, 255, 255);
+font-size: 5rem;   
+text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+filter: drop-shadow(0 0 22px rgba(0,0,0,0.7));
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+}
+
+.extra-info{
+    position: absolute;
+top: 50%;
+left: 20%;
+color: rgb(255, 255, 255);
+text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+filter: drop-shadow(0 0 22px rgba(0,0,0,0.7));
+}

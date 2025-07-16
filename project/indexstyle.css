@@ -2,3 +2,115 @@ body {
     background-color: rgb(0, 136, 255);
 }
 
+.overlay-text {
+    position: absolute;
+    font-size: 500vw;
+    top:15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* Optional: add text-shadow for readability */
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  }
+  .position-relative {
+    position: relative;
+  }
+
+  .position-relative {
+    position: relative;
+  }
+  
+  .items-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300vw;
+    min-width: 1000px;
+    max-width: 1000px;
+    z-index: 2;
+  }
+  
+  .poke-ball-overlay {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400vw;
+    min-width: 100px;
+    max-width: 300px;
+    z-index: 2;
+  }
+  
+  .evolution-overlay {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 12vw;
+    min-width: 60px;
+    max-width: 300px;
+    z-index: 2;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    text-align: center;
+    z-index: 3;
+    width: 90vw;
+    max-width: 700px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  }
+  
+  .overlay-text h1 {
+    font-size: 3.5rem;
+  }
+  
+  .overlay-text h2 {
+    font-size: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .items-overlay,
+    .poke-ball-overlay,
+    .evolution-overlay {
+      width: 20vw;
+      min-width: 60px;
+      max-width: 100px;
+    }
+    .overlay-text h1 {
+      font-size: 1.5rem;
+    }
+    .overlay-text h2 {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .items-overlay,
+    .poke-ball-overlay,
+    .evolution-overlay {
+      width: 30vw;
+      min-width: 40px;
+      max-width: 80px;
+    }
+    .overlay-text {
+      top: 10%;
+      width: 95vw;
+    }
+    .overlay-text h1 {
+      font-size: 1.1rem;
+    }
+    .overlay-text h2 {
+      font-size: 0.8rem;
+    }
+  }
+
+ 
+
+
