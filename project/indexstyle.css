@@ -134,28 +134,32 @@ background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 
   }
  
 .pokemonlogo {
-  width: 30%;
+
+  width: 50%;
+  max-width: 320px;
+  min-width: 500px;
+  margin: 0 auto 2rem auto;
   display: block;
-  margin: 0 auto;
-  margin-top: -200px;
-
+padding-top: 0%;
 
 }
 
-.texth1 {
-     font-size: 1.1rem;
-     color: white;
-     text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
-     text-align: center;
- 
-}
-
+.texth1,
 .texth2 {
-     font-size: 1.1rem;
-     padding-top: 4rem;
-     color: white;
-     text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
-     text-align: center;
- 
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
+
+@media (min-width: 768px) {
+  .texth1,
+  .texth2 {
+    font-size: 4rem;
+  }
+  .pokemonlogo {
+    width: 25%;
+  }
+}
