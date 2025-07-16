@@ -2,3 +2,69 @@
     font-size: 3rem;
     margin-top: 5rem;
 }
+
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.product-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    object-fit: contain;
+    height: 150px;
+}
+
+.bg-primary {
+    background-color: #2a75bb !important;
+}
+
+.btn-primary {
+    background-color: #2a75bb;
+    border-color: #2a75bb;
+}
+
+.btn-primary:hover {
+    background-color: #1a5a9a;
+    border-color: #1a5a9a;
+}
+
+.text-primary {
+    color: #2a75bb !important;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.remove-item {
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.remove-item:hover {
+    color: #bb2d3b;
+}
